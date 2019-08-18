@@ -18,6 +18,12 @@ int main(){
 	if( 1 ){
 		printf("This statement is always printed\n");
 	}
+	if( 50 ){
+		printf("This statement is also always printed\n");
+	}
+	if( -45 ){
+		printf("This statement is always printed as well\n");
+	}
 	if( 0 ){
 		printf("This statement is never printed\n");
 	}
