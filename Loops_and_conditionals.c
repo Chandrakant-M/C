@@ -1,8 +1,10 @@
 #include<stdio.h>
+#include<stdbool.h>	// required in c to use bool,true and false keywords.
 
 int main(){
 	int x=2;
 	int y=2;
+	bool b=true;
 	// If statement style 1
 	if(x<y){
 		printf("x is less than y\n");
@@ -27,5 +29,15 @@ int main(){
 	if( 0 ){
 		printf("This statement is never printed\n");
 	}
+	if(1.0){
+		printf("passed 1.0 in if condition\n");
+	}
+	if(0.0){
+		printf("passed 0.0 in if condition\n");
+	}
+	if(true){
+		printf("passed boolean in if condition");
+	}
+	
 	return 0;
 }
