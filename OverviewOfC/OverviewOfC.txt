@@ -1,0 +1,12 @@
+C:
+The root of all modern languages is ALGOL(introduced in 1960s).
+1967: Martin Richards developed BCPL(Basic Combined Progeamming Language) primarily for writing system software.
+1970: Ken Thompson developed a language called B using many features of BCPL.Typeless system programming language.
+1972: Dennis Ritchie at Bell Laboratories developed C. derives from ALGOL,BCPL AND B.
+UNIX coded almost entirely in C.
+1989: ANSI C.
+1990: ISO C.
+1999: C99 by Standardization committee.
+
+32 keywords in C.
+case-sensitive.
