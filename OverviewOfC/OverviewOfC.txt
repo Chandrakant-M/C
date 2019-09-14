@@ -2,7 +2,7 @@ C:
 The root of all modern languages is ALGOL(introduced in 1960s).
 1967: Martin Richards developed BCPL(Basic Combined Progeamming Language) primarily for writing system software.
 1970: Ken Thompson developed a language called B using many features of BCPL.Typeless system programming language.
-1972: Dennis Ritchie at Bell Laboratories developed C. derives from ALGOL,BCPL AND B.
+1972: Dennis Ritchie at Bell Laboratories developed C. The language derives from ALGOL,BCPL AND B.
 UNIX coded almost entirely in C.
 1989: ANSI C.
 1990: ISO C.
@@ -10,3 +10,14 @@ UNIX coded almost entirely in C.
 
 32 keywords in C.
 case-sensitive.
+
+Basic structure of C programs. (Figure 1.9 Page 12 of the book)
+Source code saved as .c files(eg. abc1.c).
+gcc abc1.c
+The above command translates the source program instructions into a form that is suitable for execution by the computer.
+Translated program is stored on another file with the name abc1.o(.obj for MS-DOS) .This program is known as object code.
+Linking is the process of putting together other program fies and functions that are required  by the program.For 
+example, if the program is using exp() function,then the object  code of this function should be brought from the 
+math library of the system and linked to the main program.
+  The compiled and linked program is called the executable object code and is stored automatically in another file 
+called a.out
