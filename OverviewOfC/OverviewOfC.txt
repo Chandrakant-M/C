@@ -18,6 +18,18 @@ The above command translates the source program instructions into a form that is
 Translated program is stored on another file with the name abc1.o(.obj for MS-DOS) .This program is known as object code.
 Linking is the process of putting together other program fies and functions that are required  by the program.For 
 example, if the program is using exp() function,then the object  code of this function should be brought from the 
-math library of the system and linked to the main program.
+math library of the system and linked to the main program.Linker always assigns the same name a.out.
   The compiled and linked program is called the executable object code and is stored automatically in another file 
 called a.out
+
+gcc -c HelloWorld.c
+	A C program is normally first compiled and then linked.But supplying -c option limits the process to just compilation.
+Therefore just .o files is/are created(.obj in MS-DOS) having the same name as the source file name.
+
+gcc HelloWorld.o
+To link .o files explicitly(thereby creating a.out file),
+
+gcc -c HelloWorld2.c HelloWorld2.c		To create .o files of multiple source files
+gcc HelloWorld2.o HelloWorld2.o			To create SINGLE a.out from multiple .o files.Therefore, it is compulsory that 
+										there be an exact SINGLE main() method
+										
