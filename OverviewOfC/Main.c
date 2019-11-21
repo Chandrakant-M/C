@@ -23,7 +23,7 @@ void main()
 }
 */
 
-char main()	// main doesn't neccessarily return void or int
+char main()	// main doesn't necessarily return void or int
 {
 	printf("Hello world.returning char\n");
 	printf("%d",functionOne());	//functionOne is returning 15.Why??
